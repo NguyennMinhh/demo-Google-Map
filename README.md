@@ -17,11 +17,11 @@ The selected source code is deployed using Github actions.
 
 
 # Cách chạy khi setup lại từ đầu:
-pip install folium
-pip install polyline
+- pip install folium
+- pip install polyline
 - chỉnh lại file show_route/settings.py
-mkdir static
-python manage.py makemigrations
-python manage.py migrate
+- mkdir static
+- python manage.py makemigrations
+- python manage.py migrate
 
 -run
